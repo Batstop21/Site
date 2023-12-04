@@ -1,0 +1,131 @@
+@font-face{
+    font-family: SaarSPDemo;
+    src: url("font/SaarSPDemo.otf");
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap:20%;
+    transform: translate(-8px,-8px);
+    width: 101%;
+    height: 100px;
+    background:#03A9F4;
+    z-index: 100;
+}
+header p{
+    color: white;
+}
+.site_name a{
+    font-family: SaarSPDemo;
+    text-align: left;
+    font-size:45px;
+    line-height: 5px;
+    text-decoration: none;
+}
+.buildings a{
+    font-family: SaarSPDemo;
+    font-size: 45px;
+    text-decoration: none;
+}
+.history_head a{
+    font-family: SaarSPDemo;
+    font-size: 45px;
+    text-decoration: none;
+}
+.about_us a{
+    font-family: SaarSPDemo;
+    font-size: 45px;
+    text-decoration: none;
+}
+.title{
+    transform: translate(0px,30px);
+    text-align: center;
+    font-size: 25px;
+    font-family: SaarSPDemo;
+    z-index: 1;
+}
+.imgs{
+    transform: translate(0px,180px);
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+    z-index: 2;
+}
+.imgs p{
+    text-align: center;
+    font-size: 25px;
+    color: #03A9F4;
+    transform: translate(0px,-10px);
+}
+.imgs a{
+    text-decoration: none;
+}
+.img1{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img2{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img3{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img4{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img5{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img6{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img7{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img8{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.img9{
+    width: 350px;
+    height: 238px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.history_title{
+    transform: translate(0px,300px);
+    text-align: center;
+    font-size: 25px;
+    font-family: SaarSPDemo;
+    z-index:3;
+}
+.1b{
+    text-align: center;
+
+}
