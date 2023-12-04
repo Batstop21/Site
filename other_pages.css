@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap:20%;
+    transform: translate(-8px,-8px);
+    width: 101%;
+    height: 100px;
+    background:#03A9F4;
+    z-index: 100;
+}
+header p{
+    color: white;
+}
