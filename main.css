@@ -120,8 +120,8 @@ header h4{
     border-radius: 35px;
 }
 .history_title {
-    position: absolute;
-    top: 1350px;
+    text-align: center;
+    transform: translate(0px,1350px);
     font-size: 25px;
     font-family: SaarSPDemo;
     z-index: 3;
