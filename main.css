@@ -45,13 +45,14 @@ header p{
     font-family: SaarSPDemo;
     z-index: 1;
 }
-.imgs{
-    transform: translate(0px,180px);
+.imgs {
+    position: absolute;
+    top: 290px;
     display: flex;
-    gap: 5%;
+    gap: 3%;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     height: 800px;
     z-index: 2;
 }
@@ -118,14 +119,13 @@ header p{
     box-sizing: border-box;
     border-radius: 35px;
 }
-.history_title{
-    transform: translate(0px,300px);
-    text-align: center;
+.history_title {
+    position: absolute;
+    top: 1350px;
     font-size: 25px;
     font-family: SaarSPDemo;
-    z-index:3;
+    z-index: 3;
 }
 .1b{
     text-align: center;
-
 }
