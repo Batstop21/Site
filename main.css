@@ -2,6 +2,11 @@
     font-family: SaarSPDemo;
     src: url("font/SaarSPDemo.otf");
 }
+@media screen and (max-width: 821px) {
+    {
+        
+    }
+}
 header {
     display: flex;
     align-items: center;
