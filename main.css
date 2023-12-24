@@ -2,18 +2,11 @@
     font-family: SaarSPDemo;
     src: url("font/SaarSPDemo.otf");
 }
-@media screen and (max-width: 821px) {
-    {
-        
-    }
+body{
+    margin:0 auto;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    gap:20%;
-    transform: translate(-8px,-8px);
-    width: 101%;
+    width: 100%;
     height: 100px;
     background:#03A9F4;
     z-index: 100;
@@ -21,9 +14,15 @@ header {
 header h4{
     color: white;
 }
+.header_container{
+    height: 100px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .site_name a{
     font-family: SaarSPDemo;
-    text-align: left;
     font-size:40px;
     line-height: 5px;
     text-decoration: none;
@@ -63,7 +62,7 @@ header h4{
 }
 .imgs p{
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     color: #03A9F4;
     transform: translate(0px,-10px);
 }
@@ -117,21 +116,4 @@ header h4{
     height: 238px;
     box-sizing: border-box;
     border-radius: 35px;
-}
-.img9{
-    width: 350px;
-    height: 238px;
-    box-sizing: border-box;
-    border-radius: 35px;
-}
-.history_title {
-    text-align: center;
-    transform: translate(0px,1350px);
-    font-size: 25px;
-    font-family: SaarSPDemo;
-    z-index: 3;
-}
-.1b{
-    text-align: center;
-    transform: translate(0px,1400px);
 }
