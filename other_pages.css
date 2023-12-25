@@ -85,7 +85,7 @@ header h4{
     display: flex;
     margin-bottom: 0px;
     margin-right: 30px;
-    width: 40%;
+    width: 400px;
     flex-direction: column;
     justify-content: space-evenly;
 }
