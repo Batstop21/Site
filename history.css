@@ -39,7 +39,15 @@ header h4{
     font-size: 40px;
     text-decoration: none;
 }
+.second_block{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 1px 10px;
+    background: #03A9F4;
+    border-radius: 20px;
+}
 .block_container {
     gap: 25px;
     display: flex;
     flex-direction: column;
+}
