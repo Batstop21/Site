@@ -47,7 +47,7 @@ header h4{
     gap: 25px;
     display: flex;
     flex-direction: column;
-    padding: 0px 25px
+    padding: 25px 25px
 }
 .first_block{
     padding: 1px 10px;
