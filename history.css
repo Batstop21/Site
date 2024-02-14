@@ -43,6 +43,9 @@ header h4{
     font-size: 40px;
     text-decoration: none;
 }
+.title h1{
+    text-align: center;
+}
 .block_container {
     gap: 25px;
     display: flex;
